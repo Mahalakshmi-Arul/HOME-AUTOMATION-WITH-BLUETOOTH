@@ -1,0 +1,29 @@
+#include <SoftwareSerial.h>
+
+SoftwareSerial Bluetooth_Pins(10,11);
+const int Relay_Pin=8;
+
+void setup() 
+{
+  pinMode(Relay_Pin,OUTPUT);
+  digitalWrite(Relay_Pin,LOW);
+  Bluetooth_Pins.begin(9600);
+  Serial.begin(9600);
+}
+void loop()
+{
+  if(Bluetooth_Pins.available())
+  {
+    char recieved_command=Bluetooth_Pins.read();
+    Serial.println(recieved_command);
+
+    if(recieved_command=='1')
+    {
+      digitalWrite(Relay_Pin,HIGH);
+    }
+    else if(recieved_command=='0')
+    {
+      digitalWrite(Relay_Pin,LOW);
+    }
+  }
+}
