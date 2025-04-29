@@ -30,3 +30,4 @@
   • 230V AC Light connected through relay NO-COM terminals
   • Serial Monitor (for real-time command logging)
 
+![Image](https://github.com/user-attachments/assets/73ebfc97-bd63-433e-bf36-e39aef5ad2bc)
