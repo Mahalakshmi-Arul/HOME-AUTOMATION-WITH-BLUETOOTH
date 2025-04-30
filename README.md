@@ -31,6 +31,7 @@
   • Serial Monitor (for real-time command logging)
 
 ![Image](https://github.com/user-attachments/assets/73ebfc97-bd63-433e-bf36-e39aef5ad2bc)
+![Image](https://github.com/user-attachments/assets/be31e44a-1331-476b-ac76-67887d5cfdc0)
 ![Image](https://github.com/user-attachments/assets/217f360e-9e7f-4388-a6d7-b1cc257320c6)
 ![Image](https://github.com/user-attachments/assets/7fba5d0c-392e-414f-94ff-1b2b7a0749c7)
-![Image](https://github.com/user-attachments/assets/be31e44a-1331-476b-ac76-67887d5cfdc0)
+
